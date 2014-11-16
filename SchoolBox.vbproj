@@ -92,6 +92,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="polafigur.Designer.vb">
+      <DependentUpon>polafigur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="polafigur.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="rokp.Designer.vb">
       <DependentUpon>rokp.vb</DependentUpon>
     </Compile>
@@ -109,6 +115,9 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="polafigur.resx">
+      <DependentUpon>polafigur.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="rokp.resx">
       <DependentUpon>rokp.vb</DependentUpon>
     </EmbeddedResource>
@@ -124,6 +133,9 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kwadrat.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

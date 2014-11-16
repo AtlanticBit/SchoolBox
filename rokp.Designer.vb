@@ -70,18 +70,16 @@ Partial Class rokp
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(35, 75)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(37, 13)
+        Me.Label3.Size = New System.Drawing.Size(0, 13)
         Me.Label3.TabIndex = 4
-        Me.Label3.Text = "20100"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.Location = New System.Drawing.Point(72, 74)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(40, 13)
+        Me.Label5.Size = New System.Drawing.Size(0, 13)
         Me.Label5.TabIndex = 6
-        Me.Label5.Text = "nie jest"
         '
         'Label6
         '
