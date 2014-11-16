@@ -8,7 +8,7 @@
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim textint As Double
-        Dim textintused As Double
+        Dim podzielna As Boolean
         Dim textstring As String
         Dim isprzestepny400 As Boolean
         textint = TextBox1.Text
@@ -19,12 +19,16 @@
             isprzestepny400 = False
         End If
         If isprzestepny400 = True Then
-            Dim podzielna As Boolean
             podzielna = isDivisible(textint, 400)
         Else
-            Dim podzielna As Boolean
             podzielna = isDivisible(textint, 4)
         End If
-
+        If podzielna = True Then
+            Label3.Text = textstring
+            Label5.Text = "jest"
+        Else
+            Label3.Text = textstring
+            Label5.Text = "nie jest"
+        End If
     End Sub
 End Class

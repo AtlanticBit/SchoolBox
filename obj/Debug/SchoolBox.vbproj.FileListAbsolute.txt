@@ -1,1 +1,11 @@
 c:\users\bruno\documents\visual studio 2013\Projects\SchoolBox\SchoolBox\bin\Debug\SchoolBox.exe.config
+c:\users\bruno\documents\visual studio 2013\Projects\SchoolBox\SchoolBox\bin\Debug\SchoolBox.exe
+c:\users\bruno\documents\visual studio 2013\Projects\SchoolBox\SchoolBox\bin\Debug\SchoolBox.pdb
+c:\users\bruno\documents\visual studio 2013\Projects\SchoolBox\SchoolBox\bin\Debug\SchoolBox.xml
+c:\users\bruno\documents\visual studio 2013\Projects\SchoolBox\SchoolBox\obj\Debug\SchoolBox.Form1.resources
+c:\users\bruno\documents\visual studio 2013\Projects\SchoolBox\SchoolBox\obj\Debug\SchoolBox.Resources.resources
+c:\users\bruno\documents\visual studio 2013\Projects\SchoolBox\SchoolBox\obj\Debug\SchoolBox.rokp.resources
+c:\users\bruno\documents\visual studio 2013\Projects\SchoolBox\SchoolBox\obj\Debug\SchoolBox.vbproj.GenerateResource.Cache
+c:\users\bruno\documents\visual studio 2013\Projects\SchoolBox\SchoolBox\obj\Debug\SchoolBox.exe
+c:\users\bruno\documents\visual studio 2013\Projects\SchoolBox\SchoolBox\obj\Debug\SchoolBox.xml
+c:\users\bruno\documents\visual studio 2013\Projects\SchoolBox\SchoolBox\obj\Debug\SchoolBox.pdb
