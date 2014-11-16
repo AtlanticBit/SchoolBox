@@ -9,3 +9,4 @@ c:\users\bruno\documents\visual studio 2013\Projects\SchoolBox\SchoolBox\obj\Deb
 c:\users\bruno\documents\visual studio 2013\Projects\SchoolBox\SchoolBox\obj\Debug\SchoolBox.exe
 c:\users\bruno\documents\visual studio 2013\Projects\SchoolBox\SchoolBox\obj\Debug\SchoolBox.xml
 c:\users\bruno\documents\visual studio 2013\Projects\SchoolBox\SchoolBox\obj\Debug\SchoolBox.pdb
+c:\users\bruno\documents\visual studio 2013\Projects\SchoolBox\SchoolBox\obj\Debug\SchoolBox.polafigur.resources
