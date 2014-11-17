@@ -35,4 +35,14 @@
         finished = finished * h
         Label12.Text = finished
     End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        Dim numbera As Decimal
+        Dim numberb As Decimal
+        Dim heuheu As Decimal
+        numbera = TextBox7.Text
+        numberb = TextBox8.Text
+        heuheu = numbera * numberb
+        Label16.Text = heuheu
+    End Sub
 End Class

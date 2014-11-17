@@ -60,6 +60,8 @@ Partial Class polafigur
         Me.TextBox7 = New System.Windows.Forms.TextBox()
         Me.TextBox8 = New System.Windows.Forms.TextBox()
         Me.Button4 = New System.Windows.Forms.Button()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
@@ -141,6 +143,8 @@ Partial Class polafigur
         '
         'TabPage4
         '
+        Me.TabPage4.Controls.Add(Me.Label16)
+        Me.TabPage4.Controls.Add(Me.Label15)
         Me.TabPage4.Controls.Add(Me.Button4)
         Me.TabPage4.Controls.Add(Me.TextBox8)
         Me.TabPage4.Controls.Add(Me.TextBox7)
@@ -435,6 +439,24 @@ Partial Class polafigur
         Me.Button4.Text = "Oblicz pole"
         Me.Button4.UseVisualStyleBackColor = True
         '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Location = New System.Drawing.Point(112, 280)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(146, 13)
+        Me.Label15.TabIndex = 5
+        Me.Label15.Text = "Pole równoległoboku wynosi:"
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.Location = New System.Drawing.Point(254, 280)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(10, 13)
+        Me.Label16.TabIndex = 6
+        Me.Label16.Text = "-"
+        '
         'polafigur
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -497,4 +519,6 @@ Partial Class polafigur
     Friend WithEvents TextBox7 As System.Windows.Forms.TextBox
     Friend WithEvents Label14 As System.Windows.Forms.Label
     Friend WithEvents Label13 As System.Windows.Forms.Label
+    Friend WithEvents Label16 As System.Windows.Forms.Label
+    Friend WithEvents Label15 As System.Windows.Forms.Label
 End Class
