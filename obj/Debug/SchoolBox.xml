@@ -19,6 +19,14 @@ SchoolBox
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:SchoolBox.My.Resources.Resources.prostokąt">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SchoolBox.My.Resources.Resources.trapez">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="T:SchoolBox.My.Resources.Resources">
 	<summary>
   A strongly-typed resource class, for looking up localized strings, etc.
