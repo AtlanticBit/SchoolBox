@@ -51,6 +51,10 @@ Partial Class polafigur
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.TextBox7 = New System.Windows.Forms.TextBox()
@@ -58,39 +62,15 @@ Partial Class polafigur
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.Label18 = New System.Windows.Forms.Label()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Label19 = New System.Windows.Forms.Label()
-        Me.Label20 = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
-        Me.Label21 = New System.Windows.Forms.Label()
-        Me.Label22 = New System.Windows.Forms.Label()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
-        Me.TextBox12 = New System.Windows.Forms.TextBox()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Label23 = New System.Windows.Forms.Label()
-        Me.Label24 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
         Me.TabPage3.SuspendLayout()
         Me.TabPage4.SuspendLayout()
-        Me.TabPage5.SuspendLayout()
-        Me.TabPage6.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TabControl1
@@ -104,7 +84,7 @@ Partial Class polafigur
         Me.TabControl1.Location = New System.Drawing.Point(12, 12)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(629, 482)
+        Me.TabControl1.Size = New System.Drawing.Size(476, 414)
         Me.TabControl1.TabIndex = 0
         '
         'TabPage1
@@ -173,21 +153,13 @@ Partial Class polafigur
         Me.TabPage4.Controls.Add(Me.PictureBox4)
         Me.TabPage4.Location = New System.Drawing.Point(4, 22)
         Me.TabPage4.Name = "TabPage4"
-        Me.TabPage4.Size = New System.Drawing.Size(621, 456)
+        Me.TabPage4.Size = New System.Drawing.Size(468, 388)
         Me.TabPage4.TabIndex = 3
         Me.TabPage4.Text = "Równoległobok"
         Me.TabPage4.UseVisualStyleBackColor = True
         '
         'TabPage5
         '
-        Me.TabPage5.Controls.Add(Me.Label20)
-        Me.TabPage5.Controls.Add(Me.Label19)
-        Me.TabPage5.Controls.Add(Me.Button5)
-        Me.TabPage5.Controls.Add(Me.TextBox10)
-        Me.TabPage5.Controls.Add(Me.TextBox9)
-        Me.TabPage5.Controls.Add(Me.Label18)
-        Me.TabPage5.Controls.Add(Me.Label17)
-        Me.TabPage5.Controls.Add(Me.PictureBox5)
         Me.TabPage5.Location = New System.Drawing.Point(4, 22)
         Me.TabPage5.Name = "TabPage5"
         Me.TabPage5.Size = New System.Drawing.Size(468, 388)
@@ -197,17 +169,9 @@ Partial Class polafigur
         '
         'TabPage6
         '
-        Me.TabPage6.Controls.Add(Me.Label24)
-        Me.TabPage6.Controls.Add(Me.Label23)
-        Me.TabPage6.Controls.Add(Me.Button6)
-        Me.TabPage6.Controls.Add(Me.TextBox12)
-        Me.TabPage6.Controls.Add(Me.TextBox11)
-        Me.TabPage6.Controls.Add(Me.Label22)
-        Me.TabPage6.Controls.Add(Me.Label21)
-        Me.TabPage6.Controls.Add(Me.PictureBox6)
         Me.TabPage6.Location = New System.Drawing.Point(4, 22)
         Me.TabPage6.Name = "TabPage6"
-        Me.TabPage6.Size = New System.Drawing.Size(621, 456)
+        Me.TabPage6.Size = New System.Drawing.Size(468, 388)
         Me.TabPage6.TabIndex = 5
         Me.TabPage6.Text = "Trójkąt"
         Me.TabPage6.UseVisualStyleBackColor = True
@@ -398,6 +362,42 @@ Partial Class polafigur
         Me.Label12.TabIndex = 5
         Me.Label12.Text = "-"
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.SchoolBox.My.Resources.Resources.kwadrat
+        Me.PictureBox1.Location = New System.Drawing.Point(40, 6)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(362, 262)
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.SchoolBox.My.Resources.Resources.prostokąt
+        Me.PictureBox2.Location = New System.Drawing.Point(71, 0)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(308, 208)
+        Me.PictureBox2.TabIndex = 0
+        Me.PictureBox2.TabStop = False
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = Global.SchoolBox.My.Resources.Resources.trapez
+        Me.PictureBox3.Location = New System.Drawing.Point(32, 4)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(405, 272)
+        Me.PictureBox3.TabIndex = 0
+        Me.PictureBox3.TabStop = False
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Image = Global.SchoolBox.My.Resources.Resources.równolegobok
+        Me.PictureBox4.Location = New System.Drawing.Point(36, 3)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(382, 195)
+        Me.PictureBox4.TabIndex = 0
+        Me.PictureBox4.TabStop = False
+        '
         'Label13
         '
         Me.Label13.AutoSize = True
@@ -457,183 +457,11 @@ Partial Class polafigur
         Me.Label16.TabIndex = 6
         Me.Label16.Text = "-"
         '
-        'Label17
-        '
-        Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(235, 4)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(17, 13)
-        Me.Label17.TabIndex = 1
-        Me.Label17.Text = "A:"
-        '
-        'Label18
-        '
-        Me.Label18.AutoSize = True
-        Me.Label18.Location = New System.Drawing.Point(235, 28)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(17, 13)
-        Me.Label18.TabIndex = 1
-        Me.Label18.Text = "B:"
-        '
-        'TextBox9
-        '
-        Me.TextBox9.Location = New System.Drawing.Point(249, 1)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox9.TabIndex = 2
-        '
-        'TextBox10
-        '
-        Me.TextBox10.Location = New System.Drawing.Point(249, 25)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox10.TabIndex = 2
-        '
-        'Button5
-        '
-        Me.Button5.Location = New System.Drawing.Point(235, 45)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(114, 23)
-        Me.Button5.TabIndex = 3
-        Me.Button5.Text = "Oblicz pole"
-        Me.Button5.UseVisualStyleBackColor = True
-        '
-        'Label19
-        '
-        Me.Label19.AutoSize = True
-        Me.Label19.Location = New System.Drawing.Point(235, 75)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(127, 13)
-        Me.Label19.TabIndex = 4
-        Me.Label19.Text = "Pole tego deltoidu wynosi"
-        '
-        'Label20
-        '
-        Me.Label20.AutoSize = True
-        Me.Label20.Location = New System.Drawing.Point(360, 75)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(10, 13)
-        Me.Label20.TabIndex = 5
-        Me.Label20.Text = "-"
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.SchoolBox.My.Resources.Resources.kwadrat
-        Me.PictureBox1.Location = New System.Drawing.Point(40, 6)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(362, 262)
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Image = Global.SchoolBox.My.Resources.Resources.prostokąt
-        Me.PictureBox2.Location = New System.Drawing.Point(71, 0)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(308, 208)
-        Me.PictureBox2.TabIndex = 0
-        Me.PictureBox2.TabStop = False
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.Image = Global.SchoolBox.My.Resources.Resources.trapez
-        Me.PictureBox3.Location = New System.Drawing.Point(32, 4)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(405, 272)
-        Me.PictureBox3.TabIndex = 0
-        Me.PictureBox3.TabStop = False
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.Image = Global.SchoolBox.My.Resources.Resources.równolegobok
-        Me.PictureBox4.Location = New System.Drawing.Point(36, 3)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(382, 195)
-        Me.PictureBox4.TabIndex = 0
-        Me.PictureBox4.TabStop = False
-        '
-        'PictureBox5
-        '
-        Me.PictureBox5.Image = Global.SchoolBox.My.Resources.Resources.deltoid
-        Me.PictureBox5.Location = New System.Drawing.Point(3, 3)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(225, 298)
-        Me.PictureBox5.TabIndex = 0
-        Me.PictureBox5.TabStop = False
-        '
-        'PictureBox6
-        '
-        Me.PictureBox6.Image = Global.SchoolBox.My.Resources.Resources.trójkąt2
-        Me.PictureBox6.Location = New System.Drawing.Point(21, 13)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(531, 287)
-        Me.PictureBox6.TabIndex = 0
-        Me.PictureBox6.TabStop = False
-        '
-        'Label21
-        '
-        Me.Label21.AutoSize = True
-        Me.Label21.Location = New System.Drawing.Point(143, 307)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(57, 13)
-        Me.Label21.TabIndex = 1
-        Me.Label21.Text = "Podstawa:"
-        '
-        'Label22
-        '
-        Me.Label22.AutoSize = True
-        Me.Label22.Location = New System.Drawing.Point(143, 330)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(60, 13)
-        Me.Label22.TabIndex = 1
-        Me.Label22.Text = "Wysokość:"
-        '
-        'TextBox11
-        '
-        Me.TextBox11.Location = New System.Drawing.Point(197, 304)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox11.TabIndex = 2
-        '
-        'TextBox12
-        '
-        Me.TextBox12.Location = New System.Drawing.Point(197, 327)
-        Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox12.TabIndex = 2
-        '
-        'Button6
-        '
-        Me.Button6.Location = New System.Drawing.Point(146, 347)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(151, 23)
-        Me.Button6.TabIndex = 3
-        Me.Button6.Text = "Oblicz pole"
-        Me.Button6.UseVisualStyleBackColor = True
-        '
-        'Label23
-        '
-        Me.Label23.AutoSize = True
-        Me.Label23.Location = New System.Drawing.Point(143, 373)
-        Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(128, 13)
-        Me.Label23.TabIndex = 4
-        Me.Label23.Text = "Pole tego trójkąta wynosi:"
-        '
-        'Label24
-        '
-        Me.Label24.AutoSize = True
-        Me.Label24.Location = New System.Drawing.Point(268, 373)
-        Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(10, 13)
-        Me.Label24.TabIndex = 5
-        Me.Label24.Text = "-"
-        '
         'polafigur
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(643, 506)
+        Me.ClientSize = New System.Drawing.Size(500, 438)
         Me.Controls.Add(Me.TabControl1)
         Me.Name = "polafigur"
         Me.Text = "Pola figur"
@@ -646,16 +474,10 @@ Partial Class polafigur
         Me.TabPage3.PerformLayout()
         Me.TabPage4.ResumeLayout(False)
         Me.TabPage4.PerformLayout()
-        Me.TabPage5.ResumeLayout(False)
-        Me.TabPage5.PerformLayout()
-        Me.TabPage6.ResumeLayout(False)
-        Me.TabPage6.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -699,20 +521,4 @@ Partial Class polafigur
     Friend WithEvents Label13 As System.Windows.Forms.Label
     Friend WithEvents Label16 As System.Windows.Forms.Label
     Friend WithEvents Label15 As System.Windows.Forms.Label
-    Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
-    Friend WithEvents Label20 As System.Windows.Forms.Label
-    Friend WithEvents Label19 As System.Windows.Forms.Label
-    Friend WithEvents Button5 As System.Windows.Forms.Button
-    Friend WithEvents TextBox10 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox9 As System.Windows.Forms.TextBox
-    Friend WithEvents Label18 As System.Windows.Forms.Label
-    Friend WithEvents Label17 As System.Windows.Forms.Label
-    Friend WithEvents PictureBox6 As System.Windows.Forms.PictureBox
-    Friend WithEvents Label24 As System.Windows.Forms.Label
-    Friend WithEvents Label23 As System.Windows.Forms.Label
-    Friend WithEvents Button6 As System.Windows.Forms.Button
-    Friend WithEvents TextBox12 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox11 As System.Windows.Forms.TextBox
-    Friend WithEvents Label22 As System.Windows.Forms.Label
-    Friend WithEvents Label21 As System.Windows.Forms.Label
 End Class

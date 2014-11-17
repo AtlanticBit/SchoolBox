@@ -63,16 +63,6 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property deltoid() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("deltoid", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
         Friend ReadOnly Property kwadrat() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("kwadrat", resourceCulture)
@@ -106,26 +96,6 @@ Namespace My.Resources
         Friend ReadOnly Property trapez() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("trapez", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property trójkąt() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("trójkąt", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property trójkąt2() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("trójkąt2", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
