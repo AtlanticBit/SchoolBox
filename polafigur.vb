@@ -45,4 +45,30 @@
         heuheu = numbera * numberb
         Label16.Text = heuheu
     End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Dim delta As Decimal
+        Dim deltb As Decimal
+        Dim deltend As Decimal
+        delta = TextBox9.Text
+        deltb = TextBox10.Text
+        deltend = delta * deltb
+        deltend = deltend / 2
+        Label20.Text = deltend
+    End Sub
+
+    Private Sub PictureBox6_Click(sender As Object, e As EventArgs) Handles PictureBox6.Click
+
+    End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        Dim troja As Decimal
+        Dim trojb As Decimal
+        Dim wynik As Decimal
+        troja = TextBox11.Text
+        trojb = TextBox12.Text
+        wynik = troja * trojb
+        wynik = wynik / 2
+        Label24.Text = wynik
+    End Sub
 End Class
