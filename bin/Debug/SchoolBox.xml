@@ -15,6 +15,10 @@ SchoolBox
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
+</member><member name="P:SchoolBox.My.Resources.Resources.deltoid">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:SchoolBox.My.Resources.Resources.kwadrat">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -23,7 +27,19 @@ SchoolBox
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:SchoolBox.My.Resources.Resources.równolegobok">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:SchoolBox.My.Resources.Resources.trapez">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SchoolBox.My.Resources.Resources.trójkąt">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SchoolBox.My.Resources.Resources.trójkąt2">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
